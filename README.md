@@ -26,32 +26,30 @@ The website goals:
 1. As a new fan of the band, I want find out more about the band and its musicians.
 2. As a new/returning fan of the band, I want to easily navigate the site, so I can find what I need efficiently. 
 3. As a new/returning fan of the band, I want to see the band pics and figure it out where and when the upcoming concerts will take place. 
-4. As an interested concert producer, I want to get in touch with the band's manager, so I can ask for a quote.   
-5. As an interested concert producer, I want to have access to band's material and reviews, so I can check the performance quality.
-6. As a fan of the band/or interested concert produced, I want to follow the band on social media and keep up with its latest news.
+4. As a new/returning fan of the band, I can figure out that there is a stand in the venues where I can buy band's t-shirts. 
+5. As an interested concert producer, I want to get in touch with the band's manager, so I can ask for a quote.   
+6. As an interested concert producer, I want to have access to band's material and reviews, so I can check the performance quality.
+7. As a fan of the band/or interested concert producer, I want to follow the band on social media and keep up with its latest news. 
 
 ##### Wireframe mockups: 
 
-- [Home]()
-- [Tour Dates]()
-- [Gallery]()
-- [About Us]()
-- [Merchan]()
-- [Contact]()
+- <a href="https://github.com/roliveira81/t4h-metallicacover-band/blob/master/assets/docs/wp/home.png" target="_blank">HOME</a>
+- <a href="https://github.com/roliveira81/t4h-metallicacover-band/blob/master/assets/docs/wp/tour_dates.png" target="_blank">TOUR DATES</a>
+- <a href="https://github.com/roliveira81/t4h-metallicacover-band/blob/master/assets/docs/wp/gallery.png" target="_blank">GALLERY</a>
+- <a href="https://github.com/roliveira81/t4h-metallicacover-band/blob/master/assets/docs/wp/about.png" target="_blank">ABOUT</a>
+- <a href="https://github.com/roliveira81/t4h-metallicacover-band/blob/master/assets/docs/wp/merchan.png" target="_blank">MERCHAN</a>
+- <a href="https://github.com/roliveira81/t4h-metallicacover-band/blob/master/assets/docs/wp/contact.png" target="_blank">CONTACT</a>
 
 ## Features
 
-##### Home
-
-##### Tour Dates
-
-##### Gallery
-
-##### About
-
-##### Merchan
-
-##### Contact
+A responsive single-page website, with header and footer fixed featuring the band's logo, the navigation bar and social media links. 
+The homepage aims to be effective in identifying which Metallica cover the website is about by picturing its logo on the left top and hero images of the band besides next tour dates.
+To get the bonding with the fans even stronger, each feature is introduced by a subtitle based on lyrics of iconical Metallica songs. 
  
 ### Existing Features
+
+- Fixed Header - It brings the band's logo, which allows all fans and visitors to easily recognise the cover band. It also contains the nav bar, which anchors the navigation to each section. The logo click always returns visitor to the top of the page.
+- Fixed Footer - It brings the links of each band social media through their well known icons.
+- HOME - A striking image of band welcomes the visitor, overlaid by an upcoming dates list that allows users to know where buy tickets and share the event on Facebook.
+- GALLERY - An auto-scrolling carousel (by Bootstrap), allows fans to see band's pics in action or anything else related to the band on the road.
 
