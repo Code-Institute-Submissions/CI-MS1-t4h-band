@@ -49,7 +49,71 @@ To get the bonding with the fans even stronger, each feature is introduced by a 
 ### Existing Features
 
 - Fixed Header - It brings the band's logo, which allows all fans and visitors to easily recognise the cover band. It also contains the nav bar, which anchors the navigation to each section. The logo click always returns visitor to the top of the page.
-- Fixed Footer - It brings the links of each band social media through their well known icons.
-- HOME - A striking image of band welcomes the visitor, overlaid by an upcoming dates list that allows users to know where buy tickets and share the event on Facebook.
-- GALLERY - An auto-scrolling carousel (by Bootstrap), allows fans to see band's pics in action or anything else related to the band on the road.
+- Fixed Footer - It brings the links of each band's social media channels through their well known icons.
+- HOME - "...and the road becomes our bride" section with a striking image of the band welcomes the visitor, overlaid by an upcoming dates list that allows users to know where buy tickets and share the event on Facebook.
+- TOUR DATES - "wherever we may roam" section allows fans to see the full list of an upcoming dates list that allows users to know where to buy tickets and share the event on Facebook.
+- GALLERY - "on the road" section with an auto-scrolling carousel (by Bootstrap), allows fans, visitors and concert producers to see band's pics in action or anything else related to the band on the road.
+- ABOUT - "reason for being" section allows visitors to see the band's history and who is part of it.
+- MERCHAN - "the memory remains" section allows fans to see pictures of promotional band's t-shirts sold in venues stands.
+- CONTACT - "take us to your city" section has the form which allows concert producers to get in touch with the band's manager and ask for a quote.
 
+### Features Left to Implement
+
+- Form submission button needs to be functional (once Javascript modules is completed).
+- REVIEWS - A section where fans can submit their impressions of some concert or get in touch with the band members.
+- An update of GALLERY section embeding the band's Youtube channel. 
+
+## Technologies Used
+
+- The main technologies used on this project is HTML, CSS and GITPOD as IDE.
+- [BootstrapCDN](https://www.bootstrapcdn.com/)
+    - The project uses **Bootstrap4** to simplify the structure of the website and make the website responsive easily.
+    - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+- [Google Fonts](https://fonts.google.com/)
+    - The project uses **Google fonts** to style the website fonts.    
+- All external images and logos are band's property.
+
+
+## Testing
+
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+1. Contact form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+- Different values for environment variables (Heroku Config Vars)?
+- Different configuration files?
+- Separate git branch?
+
+In addition, if it is not obvious, you should also describe how to run your code locally.
+
+
+## Credits
+
+### Content
+- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+### Media
+- The photos used in this site were obtained from ...
+
+### Acknowledgements
+
+- I received inspiration for this project from X
