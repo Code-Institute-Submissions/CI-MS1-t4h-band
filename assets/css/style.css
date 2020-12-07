@@ -73,9 +73,7 @@ footer i:hover {
 /*phones*/
 @media screen and (max-width: 768px) {
     #band-image {
-    height: 0px;
-    width: 100%;
-    background: url('../images/band01.jpg') no-repeat center center;
+        height: 0px;
     }
 }
 
@@ -93,7 +91,7 @@ footer i:hover {
     #band-image {
         background-color: #000;        
         background-size: 100%;
-    }      
+    }       
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -102,4 +100,10 @@ footer i:hover {
         background-color: #000;        
         background-size: 100%;
     }     
+
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }    
 }
