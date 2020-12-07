@@ -4,6 +4,9 @@ body {
     font-family: 'Roboto', sans-serif; 
 }
 
+section {
+	min-height: 100vh;
+}
 
 /* BgColors..........................................*/
 
@@ -27,14 +30,6 @@ header {
     width: 250px;
 }
 
-/* HOME section........................................*/
-
-#band-image {
-  height: 800px;
-  width: 100%;
-  background: url('../images/band01.jpg') no-repeat center center;
-}
-
 /* Footer.........................................*/
 footer {
     background-color: #000;
@@ -44,17 +39,44 @@ footer {
     width: 100%;
 }
 
-footer.row {
-    border: 1px solid #fff;
+footer i {
+    font-size: 30px;
+    color: #f1c652;
+    transition: all 0.35 ease-in-out;
+    padding-top: 15px;
+    -moz-transition: all 0.35 ease-in-out;
+    -webkit-transition: all 0.35 ease-in-out;
+    -o-transition: all 0.35 ease-in-out;
 }
 
+footer i:hover {
+    color: #d35e2c;
+}
 
+/*
+.row > div {
+  background: lightgrey;
+  border: 1px solid grey;
+}
+*/
+
+/* HOME section........................................*/
+
+#band-image {
+  height: 800px;
+  width: 100%;
+  background: url('../images/band01.jpg') no-repeat center center;
+}
 
 /*------------ MEDIA QUERIES ------------*/
 
 /*phones*/
 @media screen and (max-width: 768px) {
-   
+    #band-image {
+    height: 0px;
+    width: 100%;
+    background: url('../images/band01.jpg') no-repeat center center;
+    }
 }
 
 /*phones and tablets*/
@@ -63,17 +85,11 @@ footer.row {
 
 /*desktops and XL screens*/
 @media screen and (min-width: 993px) {
-    .navbar-nav {
-        margin:0 25% 0 10%;
-    }         
+ 
 }
-
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) { 
-    .navbar-nav {
-        margin:0 25% 0 10%;
-    }
     #band-image {
         background-color: #000;        
         background-size: 100%;
@@ -82,9 +98,6 @@ footer.row {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .navbar-nav {
-        margin:0 25% 0 10%;
-    }   
     #band-image {
         background-color: #000;        
         background-size: 100%;
