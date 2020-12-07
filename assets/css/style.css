@@ -30,6 +30,9 @@ header {
     width: 250px;
 }
 
+ .navbar-center {
+}
+
 /* Footer.........................................*/
 footer {
     background-color: #000;
@@ -41,7 +44,7 @@ footer {
 
 footer i {
     font-size: 30px;
-    color: #f1c652;
+    color: #bb9126;
     transition: all 0.35 ease-in-out;
     padding-top: 15px;
     -moz-transition: all 0.35 ease-in-out;
@@ -60,19 +63,104 @@ footer i:hover {
 }
 */
 
+/* TABLE........................................*/
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+thead {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;    
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    border-bottom: 1px solid #39393b;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);    
+}
+
+td {
+    vertical-align: top;
+    text-align: center;    
+    font-size: 14px;
+    line-height: 1.5;
+    color: #cacacd;
+    padding: 12px 0px;
+    color: #efefef;    
+}
+
+table a {
+    color: #ffffff;
+}
+
 /* HOME section........................................*/
 
-#band-image {
+#home {
   height: 800px;
   width: 100%;
   background: url('../images/band01.jpg') no-repeat center center;
+  position: relative;
 }
+
+#position-tour-table-home {
+    color: #fff;
+    position: absolute;
+    width: 1140px;
+    margin: 0 auto;    
+    margin-top: 150px;
+}
+
+table#tour-table-home {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    background: rgba(100, 100, 100, 0.45);
+}
+
+body a.rsvp-trio.not-avail-trio, body a.rsvp-trio.not-avail-trio:hover {
+    border-color: #ed412f;
+}
+body a.rsvp-trio {
+    border-color: #2faced;
+}
+body a.rsvp-trio {
+    border-color: #2faced;
+}
+a.rsvp-trio {
+    text-decoration: none;
+    line-height: 1;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 11px;
+    color: #ffffff;
+    padding: 4px 8px;
+    border: 2px solid red;
+    position: relative;
+    bottom: 1px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
 
 /*------------ MEDIA QUERIES ------------*/
 
 /*phones*/
 @media screen and (max-width: 768px) {
-    #band-image {
+    #home {
         height: 0px;
     }
 }
@@ -88,7 +176,7 @@ footer i:hover {
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) { 
-    #band-image {
+    #home {
         background-color: #000;        
         background-size: 100%;
     }       
@@ -96,7 +184,7 @@ footer i:hover {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    #band-image {
+    #home {
         background-color: #000;        
         background-size: 100%;
     }     
