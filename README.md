@@ -14,6 +14,11 @@ The website goals:
  
 ## UX
 
+##### Trafic expected to this website:
+* Rock and roll and Heavy Metal fans, particulary of the american Heavy Metal band called Metallica, within all ages.
+* People interested in live concerts.
+* Concert Producers. 
+
 ##### Visitors to this website are searching for:
 * A contact channel for concert producers in hiring the band.
 * Find out more about the band and the upcoming shows. 
@@ -71,6 +76,7 @@ To get the bonding with the fans even stronger, each feature is introduced by a 
     - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
 - [Google Fonts](https://fonts.google.com/)
     - The project uses **Google fonts** to style the website fonts.    
+- Git is the version control used.
 - All external images and logos are band's property.
 
 ### Resources
@@ -81,15 +87,6 @@ To get the bonding with the fans even stronger, each feature is introduced by a 
 - [Bootsrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - A great resource to have the first contact with Bootstrap grids.
 - [Stack Overflow](https://stackoverflow.com/) - General resource.
 - [Youtube](https://www.youtube.com/) - General resource.
-
-- [CSS-Tricks](https://css-tricks.com/) - General resource.
-- [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General resource.
-- [CommonMark](https://commonmark.org/help/) - For Markdown language reference.
-- [FlexBox Froggy Game](http://flexboxfroggy.com/) - Learning platform for FlexBox.
-- [Coolors](https://coolors.co/) - Find matching color palette for site.
-- [TinyPNG](https://tinypng.com/) - Efficient compression of images for site.
-- [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator.
----
 
 ## Testing
 
@@ -111,6 +108,10 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+## Project Issues
+
+- 
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -125,12 +126,23 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
+> ##### Code Snippets
+>
+> - [Trio Template](https://trio.progressionstudios.com/) - Tour dates table.
+> - [Code Institute](https://codeinstitute.net/) - I followed the contact form implementantion from 'Love Running' class project.
+> - [Shuva Mallick](https://jsfiddle.net/shuvamallick/3o0h5oka/) - Inspiration code for Submit button colour slide effect.
+> - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns) - Code idea for cards inside Jumbotron.
+> - [W3.org](https://www.w3.org/2005/10/howto-favicon) - How to add a Favicon to site.
+> - [Orel Eliyahu' on Stack Overflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked) for the code solution to closing hamburger menu once menu item clicked.
+
+
 ### Content
+- The tour table on Home section was taken from [Trio Template](https://trio.progressionstudios.com/)
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- All images and logos are band's property represented by myself, developer responsible.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- 

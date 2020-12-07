@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif; 
 }
@@ -21,10 +27,6 @@ section {
 }
 
 /* Header........................................*/
-
-header {
-    margin: 0;
-}
 
 .logo {
     width: 250px;
@@ -64,7 +66,7 @@ footer i:hover {
 */
 
 /* TABLE........................................*/
-
+/* --- Credit: Table from https://trio.progressionstudios.com/ ---*/
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -129,16 +131,16 @@ table#tour-table-home {
     background: rgba(100, 100, 100, 0.45);
 }
 
-body a.rsvp-trio.not-avail-trio, body a.rsvp-trio.not-avail-trio:hover {
+table a.rsvp-band.not-avail-band, body a.rsvp-band.not-avail-band:hover {
     border-color: #ed412f;
 }
-body a.rsvp-trio {
+table a.rsvp-band {
     border-color: #2faced;
 }
-body a.rsvp-trio {
+table a.rsvp-band {
     border-color: #2faced;
 }
-a.rsvp-trio {
+a.rsvp-band {
     text-decoration: none;
     line-height: 1;
     cursor: pointer;
@@ -155,6 +157,18 @@ a.rsvp-trio {
     border-radius: 2px;
 }
 
+/* TOUR section........................................*/
+
+#tour-section-row {
+  position: relative;
+}
+
+#home {
+  height: 800px;
+  width: 100%;
+  background: url('../images/tour_section.jpg') no-repeat center center;
+  position: relative;
+}
 
 /*------------ MEDIA QUERIES ------------*/
 
