@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+/* BgColors..........................................*/
+
+.bg-black {
+    background-color: #000;
+}
+
+/* Misc..........................................*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Header........................................*/
+
+header {
+    margin: 0;
+}
+
+.logo {
+    width: 250px;
+}
+
+/* HOME section........................................*/
+
+#band-image {
+  height: 800px;
+  width: 100%;
+  background: url('../images/band01.jpg') no-repeat center center;
+}
+
+/* Footer.........................................*/
+footer {
+    background-color: #000;
+    position: fixed;
+    height: 65px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer.row {
+    border: 1px solid #fff;
+}
+
+
+
+/*------------ MEDIA QUERIES ------------*/
+
+/*phones*/
+@media screen and (max-width: 768px) {
+   
+}
+
+/*phones and tablets*/
+@media screen and (max-width: 992px) {
+}
+
+/*desktops and XL screens*/
+@media screen and (min-width: 993px) {
+    .navbar-nav {
+        margin:0 25% 0 10%;
+    }         
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+    .navbar-nav {
+        margin:0 25% 0 10%;
+    }
+    #band-image {
+        background-color: #000;        
+        background-size: 100%;
+    }      
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .navbar-nav {
+        margin:0 25% 0 10%;
+    }   
+    #band-image {
+        background-color: #000;        
+        background-size: 100%;
+    }     
+}

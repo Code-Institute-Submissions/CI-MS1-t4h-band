@@ -73,6 +73,23 @@ To get the bonding with the fans even stronger, each feature is introduced by a 
     - The project uses **Google fonts** to style the website fonts.    
 - All external images and logos are band's property.
 
+### Resources
+
+- [Code Institute Course Content](https://courses.codeinstitute.net/) - Main source of fundamental knowledge.
+- [Balsamiq](https://balsamiq.com/wireframes/) - Wireframing design tool.
+- [G2D Treinamentos](https://https://www.youtube.com/playlist?list=PLqTgVMDu7ABjsut7WHi2gaql373fJYgQv) Video tutorial on Balsamiq Mockups by Gustavo Demarchi.
+- [Bootsrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - A great resource to have the first contact with Bootstrap grids.
+- [Stack Overflow](https://stackoverflow.com/) - General resource.
+- [Youtube](https://www.youtube.com/) - General resource.
+
+- [CSS-Tricks](https://css-tricks.com/) - General resource.
+- [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General resource.
+- [CommonMark](https://commonmark.org/help/) - For Markdown language reference.
+- [FlexBox Froggy Game](http://flexboxfroggy.com/) - Learning platform for FlexBox.
+- [Coolors](https://coolors.co/) - Find matching color palette for site.
+- [TinyPNG](https://tinypng.com/) - Efficient compression of images for site.
+- [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator.
+---
 
 ## Testing
 
