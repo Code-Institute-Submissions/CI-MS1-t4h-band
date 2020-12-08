@@ -97,12 +97,11 @@ Roboto was the font used and the color scale black colors contrasting with yello
 
 ## Testing
 
-1.Automated testes:
-	* HTML validation: validator.w3.org
-	* CSS validation: jigsaw.w3.org/css-validator
-	* AUTOprefixer CSS on line
-	* Browse compatibility check
-	* Test links from navigation	
+* HTML validation: validator.w3.org
+* CSS validation: jigsaw.w3.org/css-validator
+* AUTOprefixer CSS on line
+* Browse compatibility check
+* Test links from navigation	
 
 ## Project Issues
 
@@ -121,15 +120,10 @@ The deployment process was made based on learnt on User Centric Frontend Develop
 
 ## Credits
 
-> ##### Code Snippets
->
-> - [Trio Template](https://trio.progressionstudios.com/) - Tour dates table.
-> - [Code Institute](https://codeinstitute.net/) - I followed the contact form implementantion from 'Love Running' class project.
-> - [Shuva Mallick](https://jsfiddle.net/shuvamallick/3o0h5oka/) - Inspiration code for Submit button colour slide effect.
-> - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns) - Code idea for cards inside Jumbotron.
-> - [W3.org](https://www.w3.org/2005/10/howto-favicon) - How to add a Favicon to site.
-> - [Orel Eliyahu' on Stack Overflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked) for the code solution to closing hamburger menu once menu item clicked.
+##### Code Snippets
 
+- [Trio Template](https://trio.progressionstudios.com/) - Tour dates table.
+- [Code Institute](https://codeinstitute.net/) - I followed the contact form implementantion from 'Love Running' class project.i
 
 ### Content
 - The tour table on Home section was taken from [Trio Template](https://trio.progressionstudios.com/).
