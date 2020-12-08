@@ -2,7 +2,7 @@
 
 ## THE FOUR HORSEMEN
 
-[View website in GitHub Pages](https://github.com/t4h-metallicacover-band/t4h)
+[View website in GitHub Pages](https://roliveira81.github.io/CI-MS1-t4h-band/index.html)
 
 This is the virtual HQ of the most important Metallica cover band from South America.
 A responsive website for those interested in finding out more about the band's history and activities, our members, merchandising, upcoming shows and taking the band to their city/country.  
