@@ -53,14 +53,22 @@ To get the bonding with the fans even stronger, each feature is introduced by a 
  
 ### Existing Features
 
-- Fixed Header - It brings the band's logo, which allows all fans and visitors to easily recognise the cover band. It also contains the nav bar, which anchors the navigation to each section. The logo click always returns visitor to the top of the page.
-- Fixed Footer - It brings the links of each band's social media channels through their well known icons.
-- HOME - "...and the road becomes our bride" section with a striking image of the band welcomes the visitor, overlaid by an upcoming dates list that allows users to know where buy tickets and share the event on Facebook.
-- TOUR DATES - "wherever we may roam" section allows fans to see the full list of an upcoming dates list that allows users to know where to buy tickets and share the event on Facebook.
-- GALLERY - "on the road" section with an auto-scrolling carousel (by Bootstrap), allows fans, visitors and concert producers to see band's pics in action or anything else related to the band on the road.
-- ABOUT - "reason for being" section allows visitors to see the band's history and who is part of it.
-- MERCHAN - "the memory remains" section allows fans to see pictures of promotional band's t-shirts sold in venues stands.
-- CONTACT - "take us to your city" section has the form which allows concert producers to get in touch with the band's manager and ask for a quote.
+- FIXED HEADER: the logo in the left corner allows visitors to easily recognise the band. By clicking on it, visitors can return to the top of the page. A navbar anchors the sections. 
+
+- FIXED FOOTER: well-known icons direct to the band's social media channels. They are easy enough to find while don't interfere in the experience.
+
+- HOME: a striking image of the band performing welcomes the visitor and is overlaid by a shortlist of upcoming dates, with links to buy tickets and share the event on social media. The mobile version is simplified for a better experience, but in both cases, a "view more" button leads to the Tour Dates section. As in every section, the title is inspired by Metallica hits to get visitors in the mood.
+
+- TOUR: here visitors can see a full list of upcoming dates, sided by hero images of gigs. It includes links to buy tickets, share the event on social media and include them in a calendar. Listing tour dates can also be a good strategy to attract potential clients, so a link invites producers to get in touch and redirects them to the contact page.
+
+- GALLERY: "on the road" section has an auto-scrolling carousel of pictures (by Bootstrap), allowing fans and concert producers to see more of the band on and off stage.
+
+- ABOUT: for those interested in knowing more about the band's story and its members, "reason for being" section bears more room for text, pairing with related images.
+
+- MERCH:  "the memory remains" section informs the fans about promotional band's t-shirts sold in venues stands through an image gallery.
+
+- CONTACT: a simple form, with some basic information required, seamlessly gets concert producers in touch with the band's manager to ask for a quote.
+
 
 ### Features Left to Implement
 

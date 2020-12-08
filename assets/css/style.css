@@ -163,11 +163,8 @@ a.rsvp-band {
   position: relative;
 }
 
-#home {
-  height: 800px;
-  width: 100%;
-  background: url('../images/tour_section.jpg') no-repeat center center;
-  position: relative;
+#tour {
+
 }
 
 /*------------ MEDIA QUERIES ------------*/
