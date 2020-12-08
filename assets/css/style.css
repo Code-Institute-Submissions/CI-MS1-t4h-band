@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000; 
 }
 
-body {
-    font-family: 'Roboto', sans-serif; 
+h2 {
+    color: #fff;
+    text-transform: uppercase;
 }
 
 section {
-	min-height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
 }
 
 /* BgColors..........................................*/
@@ -20,19 +23,17 @@ section {
     background-color: #000;
 }
 
-/* Misc..........................................*/
-
-.uppercase {
-    text-transform: uppercase;
-}
-
 /* Header........................................*/
 
 .logo {
     width: 250px;
 }
 
- .navbar-center {
+ #menu {
+    border-bottom: 1px solid #333;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);     
 }
 
 /* Footer.........................................*/
@@ -57,13 +58,6 @@ footer i {
 footer i:hover {
     color: #d35e2c;
 }
-
-/*
-.row > div {
-  background: lightgrey;
-  border: 1px solid grey;
-}
-*/
 
 /* TABLE........................................*/
 /* --- Credit: Table from https://trio.progressionstudios.com/ ---*/
@@ -110,22 +104,31 @@ table a {
 /* HOME section........................................*/
 
 #home {
-  height: 800px;
-  width: 100%;
-  background: url('../images/band01.jpg') no-repeat center center;
-  position: relative;
+    background-color: #b0bec5;    
+    height: 800px;
+    width: 100%;
+    background: url('../images/band01.jpg') no-repeat center center;
+    position: relative;
+}
+
+#home .container {
+    padding-top: 0;
+    height: 700px;
 }
 
 #position-tour-table-home {
     color: #fff;
-    position: absolute;
-    width: 1140px;
-    margin: 0 auto;    
-    margin-top: 150px;
 }
 
 table#tour-table-home {
     margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    background: rgba(100, 100, 100, 0.45);
+}
+
+table#tour-table {
+    margin-top: 30px;
     margin-bottom: 50px;
     width: 100%;
     background: rgba(100, 100, 100, 0.45);
@@ -159,13 +162,54 @@ a.rsvp-band {
 
 /* TOUR section........................................*/
 
-#tour-section-row {
-  position: relative;
+#tour{
+    background-color: #222225;
+    margin-top: 200px;
+    padding: 50px 0;
 }
 
-#tour {
-
+#tour-section-image {
+    width: 50%;
+    background: url('../images/contact_section.jpg') no-repeat center center;
+    position: relative;    
 }
+
+#tour-section-div-table {
+    padding-top: 100px;
+}
+
+caption a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#bb9126;
+}
+
+caption a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#bb9126;
+}
+
+/* GALLERY section........................................*/
+
+#gallery{
+    background-color: #90a4ae;
+}
+
+/* ABOUT section........................................*/
+
+#about{
+    background-color: #78909c;
+}
+
+/* MERCHAN section........................................*/
+
+#merchan{
+    background-color: #607d8b;
+}
+
+/* CONTACT section........................................*/
+
 
 /*------------ MEDIA QUERIES ------------*/
 

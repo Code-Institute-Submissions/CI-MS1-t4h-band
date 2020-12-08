@@ -50,25 +50,22 @@ The website goals:
 A responsive single-page website, with header and footer fixed featuring the band's logo, the navigation bar and social media links. 
 The homepage aims to be effective in identifying which Metallica cover the website is about by picturing its logo on the left top and hero images of the band besides next tour dates.
 To get the bonding with the fans even stronger, each feature is introduced by a subtitle based on lyrics of iconical Metallica songs. 
- 
+
+Roboto was the font used and the color scale black colors contrasting with yellow tones of the logo:
+* fonts: #000, #fff;
+* background colors: #222225, #f3f3f3, #298ec2;
+* footer icons: #bb9126, (hover): #d35e2c;
+
 ### Existing Features
 
 - FIXED HEADER: the logo in the left corner allows visitors to easily recognise the band. By clicking on it, visitors can return to the top of the page. A navbar anchors the sections. 
-
 - FIXED FOOTER: well-known icons direct to the band's social media channels. They are easy enough to find while don't interfere in the experience.
-
 - HOME: a striking image of the band performing welcomes the visitor and is overlaid by a shortlist of upcoming dates, with links to buy tickets and share the event on social media. The mobile version is simplified for a better experience, but in both cases, a "view more" button leads to the Tour Dates section. As in every section, the title is inspired by Metallica hits to get visitors in the mood.
-
 - TOUR: here visitors can see a full list of upcoming dates, sided by hero images of gigs. It includes links to buy tickets, share the event on social media and include them in a calendar. Listing tour dates can also be a good strategy to attract potential clients, so a link invites producers to get in touch and redirects them to the contact page.
-
 - GALLERY: "on the road" section has an auto-scrolling carousel of pictures (by Bootstrap), allowing fans and concert producers to see more of the band on and off stage.
-
 - ABOUT: for those interested in knowing more about the band's story and its members, "reason for being" section bears more room for text, pairing with related images.
-
 - MERCH:  "the memory remains" section informs the fans about promotional band's t-shirts sold in venues stands through an image gallery.
-
 - CONTACT: a simple form, with some basic information required, seamlessly gets concert producers in touch with the band's manager to ask for a quote.
-
 
 ### Features Left to Implement
 
@@ -84,6 +81,7 @@ To get the bonding with the fans even stronger, each feature is introduced by a 
     - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
 - [Google Fonts](https://fonts.google.com/)
     - The project uses **Google fonts** to style the website fonts.    
+- [TinyPng](https://www.tinypng.com/) - web app to compress images.
 - Git is the version control used.
 - All external images and logos are band's property.
 
@@ -98,39 +96,27 @@ To get the bonding with the fans even stronger, each feature is introduced by a 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+1.Automated testes:
+	* HTML validation: validator.w3.org
+	* CSS validation: jigsaw.w3.org/css-validator
+	* AUTOprefixer CSS on line
+	* Browse compatibility check
+	* Test links from navigation	
 
 ## Project Issues
 
-- 
+- Difficult to align the navigation bar. I fould a solution on this [source](https://www.codexworld.com/bootstrap-navbar-center-align-menu-text/);
+- Issues to resize the home image, so it was created a media query to adjust the image for mobiles devices;
+- Issues to 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+The deployment process was made based on learnt on User Centric Frontend Development Git classes:
+- From the repository location [Repository](https://github.com/roliveira81/t4h-metallicacover-band), go to settings GitHub Pages section and select the branch "Master" on the source dropdown and click on Save button; 
+- Then, it will automatically publish the project to GitHub Pages and displays the site URL created;
+- It is possible to run the project locally just clicking on the green 'Code' button and selecting either 'clone or download';
+- The Clone option provides an URL, which you can use on your desktop IDE;
+- The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine;
 
 ## Credits
 
@@ -146,6 +132,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 - The tour table on Home section was taken from [Trio Template](https://trio.progressionstudios.com/)
+
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
@@ -153,4 +140,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- 
+- Any queries, please email roberto.oliveira.ti@gmail.com
