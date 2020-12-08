@@ -97,11 +97,15 @@ Roboto was the font used and the color scale black colors contrasting with yello
 
 ## Testing
 
+* Lighthorse
 * HTML validation: validator.w3.org
+    - Warning: Section lacks heading.
 * CSS validation: jigsaw.w3.org/css-validator
 * AUTOprefixer CSS on line
 * Browse compatibility check
-* Test links from navigation	
+* Test links from navigation menu to each section	
+* [WebPageTest](https://www.webpagetest.org/result/201208_Di64_58fdc7486c6d463f7d683a633de2dbe7/)
+* [Mobile-Friendly](https://search.google.com/test/mobile-friendly?id=KJRHj8s0v1KHijDmZun6Ew)
 
 ## Project Issues
 
