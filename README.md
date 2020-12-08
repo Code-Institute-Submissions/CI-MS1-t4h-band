@@ -52,8 +52,8 @@ The homepage aims to be effective in identifying which Metallica cover the websi
 To get the bonding with the fans even stronger, each feature is introduced by a subtitle based on lyrics of iconical Metallica songs. 
 
 Roboto was the font used and the color scale black colors contrasting with yellow tones of the logo:
-* fonts: #fff;
-* background color: #222225;
+* fonts: #000, #fff;
+* background colors: #222225, #f3f3f3, #298ec2;
 * footer icons: #bb9126, (hover): #d35e2c;
 
 ### Existing Features

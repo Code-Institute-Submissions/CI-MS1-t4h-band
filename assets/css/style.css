@@ -172,7 +172,7 @@ a.rsvp-band {
 
 #tour-section-image {
     width: 50%;
-    background: url('../images/contact_section.jpg') no-repeat center center;
+    background: url('../images/tour.jpg') no-repeat center center;
     position: relative;    
 }
 
@@ -199,11 +199,26 @@ caption a:hover {
     background-color: #298ec2;
 }
 
-h2
 /* ABOUT section........................................*/
 
 #about{
     background-color: #298ec2;
+}
+
+#about-section-image {
+    width: 100%;
+    background: url('../images/about.jpg') no-repeat center center;
+    position: relative;    
+}
+
+#about-text {
+    padding-top: 100px;
+    height: 800px;
+}
+
+#about-text span {
+    font-weight: bold;
+    font-style: italic;
 }
 
 /* MERCHAN section........................................*/
