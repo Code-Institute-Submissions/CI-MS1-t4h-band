@@ -64,13 +64,14 @@ Roboto was the font used and the color scale black colors contrasting with yello
 - TOUR: here visitors can see a full list of upcoming dates, sided by hero images of gigs. It includes links to buy tickets, share the event on social media and include them in a calendar. Listing tour dates can also be a good strategy to attract potential clients, so a link invites producers to get in touch and redirects them to the contact page.
 - GALLERY: "on the road" section has an auto-scrolling carousel of pictures (by Bootstrap), allowing fans and concert producers to see more of the band on and off stage.
 - ABOUT: for those interested in knowing more about the band's story and its members, "reason for being" section bears more room for text, pairing with related images.
-- MERCH:  "the memory remains" section informs the fans about promotional band's t-shirts sold in venues stands through an image gallery.
 - CONTACT: a simple form, with some basic information required, seamlessly gets concert producers in touch with the band's manager to ask for a quote.
 
 ### Features Left to Implement
 
-- Form submission button needs to be functional (once Javascript modules is completed).
+- MERCH:  "the memory remains" section informs the fans about promotional band's t-shirts sold in venues stands through an image gallery.
 - REVIEWS - A section where fans can submit their impressions of some concert or get in touch with the band members.
+- A javascript function to set as active the menu items selected.
+- Form submission button needs to be functional (once Javascript modules is completed).
 - An update of GALLERY section embeding the band's Youtube channel. 
 
 ## Technologies Used
@@ -107,7 +108,7 @@ Roboto was the font used and the color scale black colors contrasting with yello
 
 - Difficult to align the navigation bar. I fould a solution on this [source](https://www.codexworld.com/bootstrap-navbar-center-align-menu-text/);
 - Issues to resize the home image, so it was created a media query to adjust the image for mobiles devices;
-- Issues to 
+- Issues to keep a fixed size for all the pictures;
 
 ## Deployment
 
@@ -131,13 +132,14 @@ The deployment process was made based on learnt on User Centric Frontend Develop
 
 
 ### Content
-- The tour table on Home section was taken from [Trio Template](https://trio.progressionstudios.com/)
-
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The tour table on Home section was taken from [Trio Template](https://trio.progressionstudios.com/).
+- The text for section About was copied from the band's release press kit.
 
 ### Media
 - All images and logos are band's property represented by myself, developer responsible.
 
 ### Acknowledgements
+Being able to develop an application from scratch, going through every step from concept to creation, planning and development, applying the learnings from the last two months, was undoubtedly a breakthrough. It has broken new grounds when it comes to creative direction and diagramming and will certainly increase my skills as a developer.
+Although I had previous knowledge of HTML and CSS concepts, the opportunity to revisit its fundamentals and apply CSS commands made all the difference in making me more confident about future projects where I'll have to interact with front-end.
 
 - Any queries, please email roberto.oliveira.ti@gmail.com

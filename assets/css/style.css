@@ -5,19 +5,18 @@ body {
 }
 
 h2 {
-    color: #000;
+    color: #fff;
     text-transform: uppercase;
 }
 
 hr {
-  border-top: 1px solid #000;
+  border-top: 1px solid #fff;
 }
 
 section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 120px;
     padding: 50px 0;    
 }
 
@@ -117,7 +116,7 @@ table a {
 
 #home .container {
     padding-top: 0;
-    height: 700px;
+    height: 600px;
 }
 
 #position-tour-table-home {
@@ -195,8 +194,16 @@ caption a:hover {
 }
 /* GALLERY section........................................*/
 
-#gallery{
+#gallery {
     background-color: #298ec2;
+}
+
+#gallery h2 {
+    color: #000;
+}
+
+#gallery hr {
+  border-top: 1px solid #000;
 }
 
 /* ABOUT section........................................*/
@@ -214,6 +221,7 @@ caption a:hover {
 #about-text {
     padding-top: 100px;
     height: 800px;
+    color: #fff;
 }
 
 #about-text span {
@@ -221,13 +229,23 @@ caption a:hover {
     font-style: italic;
 }
 
-/* MERCHAN section........................................*/
+/* CONTACT section........................................*/
 
-#merchan{
-    background-color: #607d8b;
+#contact{
+    min-height: 90vh;    
+    background-color: #546e7a;
+    background: url('../images/contact.jpg') no-repeat center center;
+    background-position: top;
+    background-size: cover;
 }
 
-/* CONTACT section........................................*/
+#contact .container {
+   padding-top: 200px;    
+}
+
+#contact h2, hr {
+    color:#bb9126;
+}
 
 
 /*------------ MEDIA QUERIES ------------*/
@@ -235,17 +253,8 @@ caption a:hover {
 /*phones*/
 @media screen and (max-width: 768px) {
     #home {
-        height: 0px;
-    }
-}
-
-/*phones and tablets*/
-@media screen and (max-width: 992px) {
-}
-
-/*desktops and XL screens*/
-@media screen and (min-width: 993px) {
- 
+        padding-top: 100px;
+    }  
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -253,7 +262,7 @@ caption a:hover {
     #home {
         background-color: #000;        
         background-size: 100%;
-    }       
+    }            
 }
 
 /* Large devices (desktops, 992px and up) */
